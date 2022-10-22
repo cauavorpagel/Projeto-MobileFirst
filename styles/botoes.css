@@ -1,0 +1,34 @@
+.btn-primario {
+    border: none;
+    background: var(--cor-primaria);
+    color: var(--branco);
+    transition: .5s;
+}
+
+.btn-primario:hover {
+    background: #bbd5f8;
+    transition: .5s;
+}
+
+.btn-secundario {
+    border: none;
+    background: var(--cor-secundaria);
+    color: var(--branco);
+    transition: .5s;
+}
+
+.btn-secundario:hover {
+    background: #f8d5a9;
+    transition: .5s;
+}
+
+.btn-terciario {
+    border: 1px solid var(--cinza);
+    background: var(--branco);
+    transition: .5s;
+}
+
+.btn-terciario:hover {
+    background: rgb(98, 185, 247);
+    transition: .5s;
+}
