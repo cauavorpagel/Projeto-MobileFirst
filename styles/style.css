@@ -5,7 +5,7 @@
 @import url(./atendimentos.css);
 @import url(./botoes.css);
 @import url(./rodape.css);
-
+@import url(./botao-flutuante.css);
 
 body {
     background: var(--fundo);

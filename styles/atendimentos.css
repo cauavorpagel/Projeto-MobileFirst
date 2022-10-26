@@ -58,6 +58,8 @@
     border: none;
     background: var(--cinza-secundario);
     background-image: url(../assets/icons/Chat.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .atendimento__card-paciente strong {
@@ -116,4 +118,11 @@
     margin-right: 16px;
     font-weight: 500;
     font-size: 14px;
+}
+
+@media (min-width:1080px) {
+    .atendimentos ul {
+        flex-direction: row;
+        gap: 0 30px
+    }
 }
